@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;GKVAPISOAP11Binding&quot;&gt;&lt;security mode=&quot;Transport&quot; /&gt;&lt;/Data&gt;" bindingType="basicHttpBinding" name="GKVAPISOAP11Binding" />
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;GKVAPISOAP11Binding1&quot; /&gt;" bindingType="basicHttpBinding" name="GKVAPISOAP11Binding1" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;https://cig.dhl.de/services/production/soap&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;GKVAPISOAP11Binding&quot; contract=&quot;GeschaeftskundenversandWS.GKVAPIServicePortType&quot; name=&quot;GKVAPISOAP11port0&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;https://cig.dhl.de/services/production/soap&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;GKVAPISOAP11Binding&quot; contract=&quot;GeschaeftskundenversandWS.GKVAPIServicePortType&quot; name=&quot;GKVAPISOAP11port0&quot; /&gt;" contractName="GeschaeftskundenversandWS.GKVAPIServicePortType" name="GKVAPISOAP11port0" />
+  </endpoints>
+</configurationSnapshot>
